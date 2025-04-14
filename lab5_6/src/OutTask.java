@@ -1,7 +1,7 @@
 public class OutTask implements Task {
     private final String message;
 
-    OutTask(String message) {
+    public OutTask(String message) {
         this.message = message;
     }
 
